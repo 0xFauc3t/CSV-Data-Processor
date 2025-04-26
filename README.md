@@ -15,7 +15,7 @@ A simple command-line tool for processing, analyzing, and transforming CSV data 
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/csv-processor.git
+git clone https://github.com/0xFauc3t/csv-processor.git
 cd csv-processor
 ```
 
@@ -91,4 +91,6 @@ python main.py data.csv -d ";" --output processed.csv
 - Use the `--limit` option to preview just a few rows of large datasets
 - Combine multiple operations (filter, sort, select) to perform complex transformations
 
+## 📄 License
 
+This project is licensed under the MIT License - see the LICENSE file for details.
