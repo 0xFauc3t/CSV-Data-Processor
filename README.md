@@ -42,4 +42,11 @@ python main.py <input_file.csv> [options]
 - `--select COLUMNS`: Select only specified columns (comma-separated)
 - `--limit N`: Limit output rows displayed
 
+## 📝 Examples
+
+### Display CSV data:
+```bash
+python main.py data.csv
+```
+
 
