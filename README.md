@@ -24,4 +24,10 @@ cd csv-processor
 chmod +x main.py
 ```
 
+## 🔍 Usage
+
+```bash
+python main.py <input_file.csv> [options]
+```
+
 
