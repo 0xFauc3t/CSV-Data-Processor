@@ -10,3 +10,18 @@ A simple command-line tool for processing, analyzing, and transforming CSV data 
 - 📈 Count value occurrences in columns
 - ✂️ Select and extract specific columns
 - 📊 Display data in a readable tabular format
+
+## 🚀 Installation
+
+1. Clone this repository:
+```bash
+git clone https://github.com/yourusername/csv-processor.git
+cd csv-processor
+```
+
+2. Make the script executable (Unix/Linux/macOS):
+```bash
+chmod +x main.py
+```
+
+
