@@ -30,4 +30,16 @@ chmod +x main.py
 python main.py <input_file.csv> [options]
 ```
 
+## ⚙️ Options
+
+- `input`: Input CSV file (required)
+- `-o, --output`: Output CSV file
+- `-d, --delimiter`: CSV delimiter (default: ,)
+- `--filter COLUMN VALUE`: Filter rows where COLUMN equals VALUE
+- `--sort COLUMN`: Sort by column
+- `--reverse`: Reverse sort order
+- `--count COLUMN`: Count values in a column
+- `--select COLUMNS`: Select only specified columns (comma-separated)
+- `--limit N`: Limit output rows displayed
+
 
