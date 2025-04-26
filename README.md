@@ -49,4 +49,39 @@ python main.py <input_file.csv> [options]
 python main.py data.csv
 ```
 
+### Filter rows by column value:
+```bash
+python main.py data.csv --filter Country "United States"
+```
+
+### Sort data by a column:
+```bash
+python main.py data.csv --sort Age
+```
+
+### Sort in descending order:
+```bash
+python main.py data.csv --sort Salary --reverse
+```
+
+### Count values in a column:
+```bash
+python main.py data.csv --count Category
+```
+
+### Select specific columns:
+```bash
+python main.py data.csv --select Name,Email,Phone
+```
+
+### Save processed data to a new file:
+```bash
+python main.py data.csv --filter Department IT --sort Salary --reverse -o it_salaries.csv
+```
+
+### Work with different delimiter:
+```bash
+python main.py data.csv -d ";" --output processed.csv
+```
+
 
