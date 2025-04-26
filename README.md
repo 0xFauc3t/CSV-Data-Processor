@@ -84,4 +84,11 @@ python main.py data.csv --filter Department IT --sort Salary --reverse -o it_sal
 python main.py data.csv -d ";" --output processed.csv
 ```
 
+## 💡 Tips
+
+- For best display results, use with small to medium-sized CSVs
+- When working with large files, always use the `--output` option to save results
+- Use the `--limit` option to preview just a few rows of large datasets
+- Combine multiple operations (filter, sort, select) to perform complex transformations
+
 
