@@ -94,3 +94,6 @@ python main.py data.csv -d ";" --output processed.csv
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+Have fun!
